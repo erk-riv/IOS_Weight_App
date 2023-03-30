@@ -8,12 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		A78BF34F2992ED2B0094BE64 /* IOS_Weight_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF34E2992ED2B0094BE64 /* IOS_Weight_AppApp.swift */; };
-		A78BF3512992ED2B0094BE64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3502992ED2B0094BE64 /* ContentView.swift */; };
 		A78BF3532992ED2C0094BE64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78BF3522992ED2C0094BE64 /* Assets.xcassets */; };
 		A78BF3562992ED2C0094BE64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A78BF3552992ED2C0094BE64 /* Preview Assets.xcassets */; };
 		A78BF3602992ED2C0094BE64 /* IOS_Weight_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF35F2992ED2C0094BE64 /* IOS_Weight_AppTests.swift */; };
 		A78BF36A2992ED2C0094BE64 /* IOS_Weight_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3692992ED2C0094BE64 /* IOS_Weight_AppUITests.swift */; };
 		A78BF36C2992ED2C0094BE64 /* IOS_Weight_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF36B2992ED2C0094BE64 /* IOS_Weight_AppUITestsLaunchTests.swift */; };
+		A78BF380299419550094BE64 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A78BF37F299419550094BE64 /* GoogleService-Info.plist */; };
+		A78BF38329941A3C0094BE64 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A78BF38229941A3C0094BE64 /* FirebaseAnalytics */; };
+		A78BF38529941A3C0094BE64 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A78BF38429941A3C0094BE64 /* FirebaseAnalyticsSwift */; };
+		A78BF38829941D7B0094BE64 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A78BF38729941D7B0094BE64 /* FirebaseAuth */; };
+		A78BF398299478CC0094BE64 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF397299478CC0094BE64 /* SignInView.swift */; };
+		A78BF39A299479990094BE64 /* TextInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF399299479990094BE64 /* TextInputView.swift */; };
+		A78BF39F29947D880094BE64 /* LayoutPreviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF39E29947D880094BE64 /* LayoutPreviews.swift */; };
+		A78BF3A129947F8C0094BE64 /* PasswordInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3A029947F8C0094BE64 /* PasswordInputView.swift */; };
+		A78BF3A3299486B60094BE64 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3A2299486B60094BE64 /* ButtonView.swift */; };
+		A78BF3A52994952D0094BE64 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3A42994952D0094BE64 /* RegisterView.swift */; };
+		A78BF3A9299497430094BE64 /* CloseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3A8299497430094BE64 /* CloseView.swift */; };
+		A78BF3AB29949A1F0094BE64 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3AA29949A1F0094BE64 /* HomeView.swift */; };
+		A78BF3AD29949B7C0094BE64 /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3AC29949B7C0094BE64 /* ForgotPasswordView.swift */; };
+		A78BF3AF29953AFA0094BE64 /* NewUserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3AE29953AFA0094BE64 /* NewUserInfo.swift */; };
+		A78BF3B129953B7D0094BE64 /* NewUserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3B029953B7D0094BE64 /* NewUserService.swift */; };
+		A78BF3B329953C9A0094BE64 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A78BF3B229953C9A0094BE64 /* FirebaseDatabase */; };
+		A78BF3B529953C9A0094BE64 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A78BF3B429953C9A0094BE64 /* FirebaseDatabaseSwift */; };
+		A78BF3B729953F460094BE64 /* NewUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3B629953F460094BE64 /* NewUserView.swift */; };
+		A78BF3BA299545C00094BE64 /* SessionUserDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3B9299545C00094BE64 /* SessionUserDetails.swift */; };
+		A78BF3BC299545F20094BE64 /* SessionService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3BB299545F20094BE64 /* SessionService.swift */; };
+		A78BF3C1299556210094BE64 /* LoginCredentials.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3C0299556210094BE64 /* LoginCredentials.swift */; };
+		A78BF3C3299556580094BE64 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3C2299556580094BE64 /* LoginService.swift */; };
+		A78BF3C5299557A60094BE64 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3C4299557A60094BE64 /* LoginViewModel.swift */; };
+		A78BF3C829955D050094BE64 /* ForgotPasswordService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3C729955D050094BE64 /* ForgotPasswordService.swift */; };
+		A78BF3CA29955E0B0094BE64 /* ForgotPasswordViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A78BF3C929955E0B0094BE64 /* ForgotPasswordViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +60,6 @@
 /* Begin PBXFileReference section */
 		A78BF34B2992ED2B0094BE64 /* IOS_Weight_App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOS_Weight_App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78BF34E2992ED2B0094BE64 /* IOS_Weight_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Weight_AppApp.swift; sourceTree = "<group>"; };
-		A78BF3502992ED2B0094BE64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A78BF3522992ED2C0094BE64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A78BF3552992ED2C0094BE64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		A78BF35B2992ED2C0094BE64 /* IOS_Weight_AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_Weight_AppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +67,26 @@
 		A78BF3652992ED2C0094BE64 /* IOS_Weight_AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOS_Weight_AppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A78BF3692992ED2C0094BE64 /* IOS_Weight_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Weight_AppUITests.swift; sourceTree = "<group>"; };
 		A78BF36B2992ED2C0094BE64 /* IOS_Weight_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_Weight_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A78BF37F299419550094BE64 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A78BF397299478CC0094BE64 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		A78BF399299479990094BE64 /* TextInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextInputView.swift; sourceTree = "<group>"; };
+		A78BF39E29947D880094BE64 /* LayoutPreviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutPreviews.swift; sourceTree = "<group>"; };
+		A78BF3A029947F8C0094BE64 /* PasswordInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordInputView.swift; sourceTree = "<group>"; };
+		A78BF3A2299486B60094BE64 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		A78BF3A42994952D0094BE64 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		A78BF3A8299497430094BE64 /* CloseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloseView.swift; sourceTree = "<group>"; };
+		A78BF3AA29949A1F0094BE64 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A78BF3AC29949B7C0094BE64 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		A78BF3AE29953AFA0094BE64 /* NewUserInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserInfo.swift; sourceTree = "<group>"; };
+		A78BF3B029953B7D0094BE64 /* NewUserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserService.swift; sourceTree = "<group>"; };
+		A78BF3B629953F460094BE64 /* NewUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewUserView.swift; sourceTree = "<group>"; };
+		A78BF3B9299545C00094BE64 /* SessionUserDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionUserDetails.swift; sourceTree = "<group>"; };
+		A78BF3BB299545F20094BE64 /* SessionService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionService.swift; sourceTree = "<group>"; };
+		A78BF3C0299556210094BE64 /* LoginCredentials.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginCredentials.swift; sourceTree = "<group>"; };
+		A78BF3C2299556580094BE64 /* LoginService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
+		A78BF3C4299557A60094BE64 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		A78BF3C729955D050094BE64 /* ForgotPasswordService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordService.swift; sourceTree = "<group>"; };
+		A78BF3C929955E0B0094BE64 /* ForgotPasswordViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +94,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78BF3B529953C9A0094BE64 /* FirebaseDatabaseSwift in Frameworks */,
+				A78BF38529941A3C0094BE64 /* FirebaseAnalyticsSwift in Frameworks */,
+				A78BF38829941D7B0094BE64 /* FirebaseAuth in Frameworks */,
+				A78BF3B329953C9A0094BE64 /* FirebaseDatabase in Frameworks */,
+				A78BF38329941A3C0094BE64 /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +126,7 @@
 				A78BF35E2992ED2C0094BE64 /* IOS_Weight_AppTests */,
 				A78BF3682992ED2C0094BE64 /* IOS_Weight_AppUITests */,
 				A78BF34C2992ED2B0094BE64 /* Products */,
+				A78BF38629941D7B0094BE64 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +144,11 @@
 			isa = PBXGroup;
 			children = (
 				A78BF34E2992ED2B0094BE64 /* IOS_Weight_AppApp.swift */,
-				A78BF3502992ED2B0094BE64 /* ContentView.swift */,
+				A78BF39B29947D1B0094BE64 /* Modifier */,
+				A78BF38F29944B6D0094BE64 /* Home */,
+				A78BF3782992F73A0094BE64 /* Services */,
 				A78BF3522992ED2C0094BE64 /* Assets.xcassets */,
+				A78BF37F299419550094BE64 /* GoogleService-Info.plist */,
 				A78BF3542992ED2C0094BE64 /* Preview Content */,
 			);
 			path = IOS_Weight_App;
@@ -127,6 +179,109 @@
 			path = IOS_Weight_AppUITests;
 			sourceTree = "<group>";
 		};
+		A78BF3782992F73A0094BE64 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3B82995459E0094BE64 /* Session */,
+				A78BF396299478A20094BE64 /* Views */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		A78BF38629941D7B0094BE64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A78BF38F29944B6D0094BE64 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3CB2995671D0094BE64 /* Views */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		A78BF396299478A20094BE64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF397299478CC0094BE64 /* SignInView.swift */,
+				A78BF3A42994952D0094BE64 /* RegisterView.swift */,
+				A78BF3AC29949B7C0094BE64 /* ForgotPasswordView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A78BF39B29947D1B0094BE64 /* Modifier */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3C629955CE30094BE64 /* ForgotPassword */,
+				A78BF3BE2995557B0094BE64 /* ReusableViews */,
+				A78BF3BF299555FC0094BE64 /* Login */,
+				A78BF3BD299555300094BE64 /* NewUser */,
+			);
+			path = Modifier;
+			sourceTree = "<group>";
+		};
+		A78BF3B82995459E0094BE64 /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3B9299545C00094BE64 /* SessionUserDetails.swift */,
+				A78BF3BB299545F20094BE64 /* SessionService.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		A78BF3BD299555300094BE64 /* NewUser */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3AE29953AFA0094BE64 /* NewUserInfo.swift */,
+				A78BF3B029953B7D0094BE64 /* NewUserService.swift */,
+				A78BF3B629953F460094BE64 /* NewUserView.swift */,
+			);
+			path = NewUser;
+			sourceTree = "<group>";
+		};
+		A78BF3BE2995557B0094BE64 /* ReusableViews */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF399299479990094BE64 /* TextInputView.swift */,
+				A78BF3A029947F8C0094BE64 /* PasswordInputView.swift */,
+				A78BF39E29947D880094BE64 /* LayoutPreviews.swift */,
+				A78BF3A2299486B60094BE64 /* ButtonView.swift */,
+				A78BF3A8299497430094BE64 /* CloseView.swift */,
+			);
+			path = ReusableViews;
+			sourceTree = "<group>";
+		};
+		A78BF3BF299555FC0094BE64 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3C0299556210094BE64 /* LoginCredentials.swift */,
+				A78BF3C2299556580094BE64 /* LoginService.swift */,
+				A78BF3C4299557A60094BE64 /* LoginViewModel.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		A78BF3C629955CE30094BE64 /* ForgotPassword */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3C729955D050094BE64 /* ForgotPasswordService.swift */,
+				A78BF3C929955E0B0094BE64 /* ForgotPasswordViewModel.swift */,
+			);
+			path = ForgotPassword;
+			sourceTree = "<group>";
+		};
+		A78BF3CB2995671D0094BE64 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A78BF3AA29949A1F0094BE64 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -143,6 +298,13 @@
 			dependencies = (
 			);
 			name = IOS_Weight_App;
+			packageProductDependencies = (
+				A78BF38229941A3C0094BE64 /* FirebaseAnalytics */,
+				A78BF38429941A3C0094BE64 /* FirebaseAnalyticsSwift */,
+				A78BF38729941D7B0094BE64 /* FirebaseAuth */,
+				A78BF3B229953C9A0094BE64 /* FirebaseDatabase */,
+				A78BF3B429953C9A0094BE64 /* FirebaseDatabaseSwift */,
+			);
 			productName = IOS_Weight_App;
 			productReference = A78BF34B2992ED2B0094BE64 /* IOS_Weight_App.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +377,9 @@
 				Base,
 			);
 			mainGroup = A78BF3422992ED2B0094BE64;
+			packageReferences = (
+				A78BF38129941A3C0094BE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = A78BF34C2992ED2B0094BE64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +398,7 @@
 			files = (
 				A78BF3562992ED2C0094BE64 /* Preview Assets.xcassets in Resources */,
 				A78BF3532992ED2C0094BE64 /* Assets.xcassets in Resources */,
+				A78BF380299419550094BE64 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,8 +423,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A78BF3512992ED2B0094BE64 /* ContentView.swift in Sources */,
+				A78BF3C3299556580094BE64 /* LoginService.swift in Sources */,
+				A78BF3AF29953AFA0094BE64 /* NewUserInfo.swift in Sources */,
+				A78BF3AB29949A1F0094BE64 /* HomeView.swift in Sources */,
+				A78BF3B129953B7D0094BE64 /* NewUserService.swift in Sources */,
+				A78BF3A52994952D0094BE64 /* RegisterView.swift in Sources */,
+				A78BF3A3299486B60094BE64 /* ButtonView.swift in Sources */,
+				A78BF398299478CC0094BE64 /* SignInView.swift in Sources */,
+				A78BF3A9299497430094BE64 /* CloseView.swift in Sources */,
+				A78BF3C5299557A60094BE64 /* LoginViewModel.swift in Sources */,
 				A78BF34F2992ED2B0094BE64 /* IOS_Weight_AppApp.swift in Sources */,
+				A78BF3C1299556210094BE64 /* LoginCredentials.swift in Sources */,
+				A78BF39F29947D880094BE64 /* LayoutPreviews.swift in Sources */,
+				A78BF3C829955D050094BE64 /* ForgotPasswordService.swift in Sources */,
+				A78BF3A129947F8C0094BE64 /* PasswordInputView.swift in Sources */,
+				A78BF3BA299545C00094BE64 /* SessionUserDetails.swift in Sources */,
+				A78BF3BC299545F20094BE64 /* SessionService.swift in Sources */,
+				A78BF3CA29955E0B0094BE64 /* ForgotPasswordViewModel.swift in Sources */,
+				A78BF3AD29949B7C0094BE64 /* ForgotPasswordView.swift in Sources */,
+				A78BF3B729953F460094BE64 /* NewUserView.swift in Sources */,
+				A78BF39A299479990094BE64 /* TextInputView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -583,6 +767,45 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A78BF38129941A3C0094BE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A78BF38229941A3C0094BE64 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A78BF38129941A3C0094BE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A78BF38429941A3C0094BE64 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A78BF38129941A3C0094BE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A78BF38729941D7B0094BE64 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A78BF38129941A3C0094BE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A78BF3B229953C9A0094BE64 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A78BF38129941A3C0094BE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A78BF3B429953C9A0094BE64 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A78BF38129941A3C0094BE64 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = A78BF3432992ED2B0094BE64 /* Project object */;
 }
